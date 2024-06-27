@@ -28,6 +28,7 @@ main {
 }
 section {
     margin: 10px auto;
+    padding: 0 15px;
     width: 85%;
     height: 100%;
     border: 1px solid #ccc;
