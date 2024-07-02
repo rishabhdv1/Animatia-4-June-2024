@@ -4,9 +4,13 @@
 .btn:hover {
     box-shadow: 0 0 0 .2px;
 }
+.op0 {
+    opacity: 0;
+}
 body {
     margin: 0;
     background: #F5F5F5;
+    font-family: "Text Me One", sans-serif;
 }
 header {
     height: 703px;
@@ -36,9 +40,6 @@ section {
     height: 100%;
     border: 1px solid #ccc;
     
-}
-.tmo {
-    font-family: "Text Me One", sans-serif;
 }
 .r_bb {
     width: 80%;
@@ -85,7 +86,6 @@ article > a {
     height: 210px;
     text-align: center;
     line-height: 210px;
-    background: #000;
     background-color: rgba(0, 0, 0, 0.5);
     transition: 0.5s;
 }
@@ -127,9 +127,6 @@ article > a {
     left: 0;
     transition: 0.5s;
 }
-.overlay5 {
-    opacity: 0;
-}
 .box:hover > .overlay5 {
     opacity: 1;
 }
@@ -143,9 +140,6 @@ article > a {
 .overlay5 > a:last-child {
     margin-left: 50px;
     transition: .3s;
-}
-.overlay6 {
-    opacity: 0;
 }
 .box:hover > .overlay6 {
     opacity: 1;
@@ -162,7 +156,6 @@ article > a {
     transition: 0.3s;
 }
 .overlay7 {
-    opacity: 0;
     transform: scale(1.4);
     transition: 0.5s;
 }
@@ -175,7 +168,6 @@ article > a {
     transform: scale(1);
 }
 .overlay8 {
-    opacity: 0;
     transition: 0.5s;
 }
 .overlay8 > a {
@@ -191,8 +183,19 @@ article > a {
     transform: scale(1);
     transition: 0.5s;
 }
-
-
+.r_linkParent {
+    position: relative;
+    left: 40px;
+}
+.overlay8 a.r_link {
+    position: relative;
+    left: 50px;
+    transform-origin: -27px center;
+    transform: rotate(0deg) scale(0,0);
+}
+.overlay8:hover a.r_link {
+    transform: rotate(180deg) scale(1,1);
+}
 
 
 
