@@ -13,7 +13,7 @@ body {
     font-family: "Text Me One", sans-serif;
 }
 header {
-    height: 703px;
+    height: 100vh;
     background: #6a8d9d;
 }
 header > div {
@@ -26,7 +26,7 @@ header > div {
 }
 .afw1 {
     position: relative;
-    top: 170px;
+    top: 25vh;
     text-align: center;
     color: #fff;
 }
